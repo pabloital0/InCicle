@@ -1,0 +1,442 @@
+body {
+  background-color: #F2F3F5;
+  color: #52525C;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Quebra Mobile */
+
+@media screen and (max-width: 991.9px) {
+  .perfil {
+    display: none;
+  }
+  .barra_esq {
+    display: none;
+  }
+  .postar {
+    margin-left: auto;
+  }
+  .tweet1 {
+    margin-left: auto;
+  }
+}
+
+.container {
+  display: grid;
+  grid-auto-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+}
+
+.perfil {
+  width: 320px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  position: sticky;
+  text-decoration: none;
+  font-weight: 650;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.fundo-Perfil {
+  background-color: rgb(57, 15, 124);
+  height: 200px;
+  width: auto;
+  background-image: url("https://media.istockphoto.com/vectors/learning-online-elearning-video-call-chat-with-class-distance-vector-id1218737747?s=612x612");
+  border-radius: 10px;
+}
+
+.perfil-user {
+  width: auto;
+  margin-top: -120px;
+  z-index: 10;
+}
+
+.barra_esq {
+  margin-left: 20px;
+  margin-right: 10px;
+  width: auto;
+}
+
+.perfil p {
+  color: black;
+  font-size: 15px;
+}
+
+.postar {
+  background-color: #fff;
+  border-style: 5px;
+  width: 600px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.artigo {
+  width: auto;
+  height: 30px;
+  padding: 0px 8px 0px 10px;
+  border-radius: 10px;
+  background-color: #EAEBED;
+}
+
+.artigo p {
+  color: #B3A8A4;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.artigo a {
+  text-decoration: none;
+  color: #27779C;
+}
+
+.post {
+  margin-top: 30px;
+  margin-left: 50px;
+  width: 430px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+  font-size: 15px;
+}
+
+.icones-texto {
+  width: 35px;
+  position: relative;
+  margin-top: 10px;
+  top: -80px;
+  left: 15px;
+}
+
+.icones-texto button {
+  border: 0;
+  background: transparent;
+}
+
+.icones-video {
+  width: 100px;
+  position: relative;
+  top: -120px;
+  margin-top: 5px;
+  left: 480px;
+}
+
+.icones-video button {
+  border: 0;
+  background: transparent;
+}
+
+.Foto-User {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  border-radius: 50%;
+  outline-style: outset;
+  outline-color: #153F55;
+  text-align: center;
+  transform: translateY(30%);
+}
+
+.nome {
+  text-decoration: none;
+  color: #08869F;
+  font-size: 24px;
+}
+
+.user {
+  text-decoration: none;
+  color: #52525C;
+  font-size: 15px;
+}
+
+.job {
+  text-decoration: none;
+  color: #52525C;
+  font-size: 10px;
+}
+
+.tweet1 {
+  margin-top: 25px;
+  width: 600px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+
+.post-options {
+  margin-left: 480px;
+  margin-top: 15px;
+  width: 14px;
+  height: 16px;
+}
+
+.foto-amigo {
+  width: 60px;
+  height: 60px;
+}
+
+.foto-amigo img {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  width: 60px;
+  border-radius: 50%;
+  border: solid 3px;
+  color: #153F55;
+}
+
+.tweet1 h1 {
+  font-size: 20px;
+}
+
+.infos-post i {
+  font-size: 12px;
+  color: #7D7F8C;
+}
+
+.nome-amigo {
+  font-size: 15px;
+  margin-top: -15px;
+  width: 400px;
+  height: 40px;
+  color: #1F6F86
+}
+
+.amigo-post {
+  margin-left: 80px;
+  margin-top: -70px;
+}
+
+.infos-post {
+  margin-top: -15px;
+  font-size: 14px;
+  height: 20px;
+  width: 230px;
+}
+
+.mensagem-amigo {
+  margin-left: -65px;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.mensagem-amigo p {
+  padding-left: 300px;
+  margin-top: -15px;
+}
+
+.tweet-icons {
+  width: 600px;
+  margin-left: -80px;
+  border-color: #52525C;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.tweet-icons button {
+  background-color: #F2F3F5;
+  padding: 10px 50px;
+  margin: 8px;
+  border: none;
+  border-radius: 20px;
+}
+
+.eficiencia {
+  border-radius: 10px;
+  width: 270px;
+  height: auto;
+  display: grid;
+  margin-right: 10px;
+  grid-auto-columns: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+}
+
+.atividades {
+  width: 170px;
+  height: 50px;
+  background-color: #04C2F4;
+  border-radius: 10px;
+}
+
+.atividades h4 {
+  color: white;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.atividades h3 {
+  margin-left: 100px;
+  margin-top: -50px;
+  color: white;
+}
+
+.projetos {
+  width: 170px;
+  height: 50px;
+  margin-right: 5px;
+  background-color: #95D904;
+  border-radius: 10px;
+}
+
+.projetos h4 {
+  color: white;
+  margin-left: 10px;
+  margin-top: -10px;
+}
+
+.projetos h3 {
+  margin-left: 100px;
+  margin-top: -50px;
+  color: white;
+}
+
+.total {
+  margin-top: 10px;
+  width: 350px;
+  height: 50px;
+  background-color: #FF7F00;
+  border-radius: 10px;
+  grid-column: 3 / span2;
+  text-align: center;
+}
+
+.total h4 {
+  color: white;
+  margin-left: -280px;
+  margin-top: -10px;
+}
+
+.total h3 {
+  margin-left: 260px;
+  margin-top: -50px;
+  color: white;
+}
+
+.titulo {
+  border-radius: 10px 10px 0 0;
+  width: 350px;
+  margin-top: 5px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  grid-column: 1 / span2;
+}
+
+.titulo h1 {
+  text-align: center;
+  color: #1F6F86;
+  font-size: 20px;
+}
+
+.aniversarios {
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.aniversarios h1 {
+  text-align: center;
+  padding: 15px;
+  color: #1F6F86;
+  font-size: 20px;
+}
+
+.aniversarios-sts {
+  border-radius: 0px 0px 10px 10px;
+  width: 350px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.aniversarios-sts p {
+  text-align: center;
+  padding: 15px;
+  color: #1F6F86;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.pendencias {
+  border-radius: 10px;
+  width: 350px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.pendencias h1 {
+  text-align: center;
+  padding: 15px;
+  color: #1F6F86;
+  font-size: 20px;
+}
+
+.pendencias p {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.pendencias-sts {
+  border-radius: 0px 0px 10px 10px;
+  width: auto;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.pendencias-sts p {
+  text-align: center;
+  padding: 15px;
+  color: #1F6F86;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.resumo {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 350px;
+  justify-content: space-evenly;
+}
+
+.resumo h4 {
+  text-align: center;
+  color: #00041B;
+}
+
+.resumo h6 {
+  color: #00041B;
+  text-align: center;
+}
+
+.atividades-res {
+  width: 110px;
+  border: 2px solid #04C2F4;
+  border-radius: 10px;
+}
+
+.projetos-res {
+  width: 110px;
+  border: 2px solid #95D904;
+  border-radius: 10px;
+}
+
+.total-res {
+  width: 110px;
+  border: 2px solid #FF7F00;
+  border-radius: 10px;
+}
